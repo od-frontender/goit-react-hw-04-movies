@@ -1,0 +1,21 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -20px;
+  margin-left: -20px;
+}
+.list_item {
+  list-style: none;
+  margin-top: 20px;
+  margin-left: 20px;
+  flex-basis: calc(100% / 5 - 20px);
+}
+.image {
+  width: 150px;
+  border-radius: 5px;
+}
+.title {
+  font-size: 15px;
+  font-weight: 700;
+  max-width: 150px;
+}

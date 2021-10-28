@@ -1,0 +1,28 @@
+.list_item {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-left: 30px;
+  flex-basis: calc(100% / 3 - 30px);
+  cursor: pointer;
+  list-style: none;
+}
+.link {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  text-decoration: none;
+  margin-top: 30px;
+  margin-left: 30px;
+  flex-basis: calc(100% / 3 - 30px);
+}
+.image {
+  border-radius: 20px;
+}
+.title {
+  font-size: 18px;
+  background-color: #3f51b5;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}

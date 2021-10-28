@@ -1,0 +1,12 @@
+.list {
+  list-style: none;
+}
+.title {
+  font-size: 20px;
+}
+.text {
+  width: 900px;
+  padding: 20px;
+  background-color: cornsilk;
+  border-radius: 20px;
+}
